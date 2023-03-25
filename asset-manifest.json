@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple-interpreter/static/css/main.bfe21ffc.css",
+    "main.js": "/simple-interpreter/static/js/main.26f55bc8.js",
+    "index.html": "/simple-interpreter/index.html",
+    "main.bfe21ffc.css.map": "/simple-interpreter/static/css/main.bfe21ffc.css.map",
+    "main.26f55bc8.js.map": "/simple-interpreter/static/js/main.26f55bc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfe21ffc.css",
+    "static/js/main.26f55bc8.js"
+  ]
+}
