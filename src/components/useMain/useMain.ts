@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { examples } from "../../util/examples";
-import Parser from "../../grammar/grammar";
+import { parse } from "../../grammar/grammar";
 import { Environment } from "../../interpreter/Symbols/Environment";
 import { clearOutput, getOutput } from "../../util/output";
 
@@ -11,7 +11,7 @@ const useMain = () => {
 
   const parseInput = () => {
     clearOutput();
-    const result = Parser.parse(code);
+    const result = parse(code);
     const globalEnvironment = new Environment(null);
     for (const instruction of result) {
       instruction.execute(globalEnvironment);
